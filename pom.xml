@@ -9,12 +9,12 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>3.1.2</version> 
-    <relativePath/> 
+    <version>3.1.2</version> <!-- Используйте последнюю стабильную версию -->
+    <relativePath/> <!-- указывает Maven искать родительский проект -->
   </parent>
 
   <properties>
-    <java.version>17</java.version> 
+    <java.version>17</java.version> <!-- Убедитесь, что версия Java совпадает с вашей JDK -->
   </properties>
 
   <dependencies>
